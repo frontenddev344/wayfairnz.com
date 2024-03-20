@@ -454,7 +454,7 @@ nav.site-nav {
 }
 
 .cardmain h4.text-h4 {
-    font-size: 30px;
+    font-size: 26px;
     top: 70%;
     color: $clr-white;
 }
@@ -472,7 +472,8 @@ nav.site-nav {
 
 .cardmain .card {
     position: relative;
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: 350px;
 }
 
