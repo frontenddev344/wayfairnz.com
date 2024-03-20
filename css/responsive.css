@@ -41,7 +41,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.56);
+  background: rgba(0, 0, 0, 0.65);
   z-index: 0;
   height: 500px;
 }
@@ -99,9 +99,22 @@ h3 {
 }
 
 /*media queries start*/
+@media screen and (max-width: 1240px) {
+  .site-nav a {
+    padding: 8px 9px !important;
+  }
+}
 @media screen and (max-width: 1199px) {
   .container {
     padding: 0 20px;
+  }
+  .headerflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-nav a {
+    padding: 8px 29px !important;
   }
   .site-logo img {
     max-width: 180px;

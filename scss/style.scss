@@ -82,11 +82,11 @@ header.site-header.sticky {
 
 .site-logo img {
     width: 100%;
-    max-width: 300px;
+    max-width: 205px;
 }
 
 .site-nav a {
-    padding: 8px 9px !important;
+    padding: 8px 18px !important;
     display: inline-block;
     font-weight: 500;
     color: $clr-white;
@@ -109,10 +109,10 @@ header.site-header.sticky {
 }
 
 .headerflex {
-    display: flex;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 70px;
+    gap: 50px;
 }
 
 nav.site-nav {
@@ -435,7 +435,7 @@ nav.site-nav {
 
 /*homebanner-css-start*/
 .homebanner.banner {
-    background-image: url(../images/homebanner.webp);
+    background-image: url(../images/homebanner.jpg);
     height: 600px;
     position: relative;
 
@@ -507,14 +507,12 @@ nav.site-nav {
     margin: 25px 0px;
 }
 
-
-
 /*homebanner-css-end*/
 
 
 /*hotelstays-css-start*/
 .hotel-stays.banner {
-    background-image: url(../images/hotelstays.webp);
+    background-image: url(../images/hotelstays.jpg);
     position: relative;
 }
 
@@ -582,7 +580,7 @@ nav.site-nav {
 
 /*diningcuisine-css-start*/
 .dining-cuisine.banner {
-    background-image: url(../images/diningcuisine-banner.jpeg);
+    background-image: url(../images/diningcuisine-banner.jpg);
     position: relative;
 }
 
