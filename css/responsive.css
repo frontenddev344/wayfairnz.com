@@ -16,7 +16,7 @@ button {
   margin: 10px;
   padding: 10px 30px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   transition: 0.5s;
   background-size: 200% auto;
   color: #fff;
@@ -96,6 +96,10 @@ h3 {
   font-weight: 500;
   color: #B19470;
   margin: 0;
+}
+
+.btn-toolbar a {
+  text-transform: uppercase;
 }
 
 /*media queries start*/
