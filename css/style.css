@@ -233,6 +233,10 @@ nav.site-nav {
   text-align: center;
 }
 
+.mails-names .primary-btn a {
+  box-shadow: 0 0 5px #eee !important;
+}
+
 .footer {
   background-color: #76453B;
   padding: 50px 0;

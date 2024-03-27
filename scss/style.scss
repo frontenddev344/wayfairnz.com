@@ -146,7 +146,9 @@ nav.site-nav {
     justify-content: center;
     text-align: center;
 }
-
+.mails-names .primary-btn a {
+    box-shadow: 0 0 5px #eee !important;
+}
 .footer {
     background-color: $clr-mehroon;
     padding: 50px 0;
