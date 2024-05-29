@@ -15,7 +15,229 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <title>Hotels and Stays </title>
+    <style>
+                .mobile-view-design {
+    background: #f4f4f4;
+    padding-bottom: 28px;
+    display: none;
+}
+section.mobile-view {
+    background-image: url(./images/banne_bottom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+.section.mobile-view::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.bgi-casino {
+    background-image: url(./images/banner_new.jpg);
+    padding: 147px 0 70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 270px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.bgi-casino::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.beste {
+    font-size: 25px !important;
+    font-weight: 600;
+    color: #fff;
+    max-width: 69%;
+    width: 100%;
+    line-height: 1;
+    text-align: left;
+}
+.mobile-view-design .bgi-casino p {
+    padding: 0 0px;
+}
+.encrypted {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: start;
+}
+.encrypted p {
+    color: #fff !important;
+    font-size: 17px;
+    margin: 0 2px 0 0;
+}
+img.encrypted-img {
+    max-width: 20px;
+    margin: 0 4px 0 0;
+}
+.mobile-view .container.cst {
+    padding: 0;
+}
+section.mobile-view::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.54);
+    z-index: -1;
+}
+.mobile-view-design .warapper {
+    background: rgba(215, 217, 219, 0);
+    border-radius: 6px;
+    margin: 30px 0;
+}
+.mobile-view-design .warapper .main_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mobile-view-design .warapper .main_box .beting_logo {
+    width: 50%;
+    background: #b19470;
+    padding: 10px 25px;
+}
+.beting_logo a {
+    text-align: center;
+    display: block;
+}
+.mobile-view-design .warapper .main_box .beting_logo img {
+    width: 85%;
+    height: 130px;
+    object-fit: contain;
+    padding-bottom: 15px;
+}
+.mycel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.rate.notpad {
+    margin-right: 10px;
+}
+.mobile-view-design .rate.notpad p {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+.mycelonw .main-rate-star {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.mobile-view-design p {
+    color: #fff;
+    font-size: 17px;
+}
+.myceltwo {
+    margin: 0;
+}
+.mobile-view-design p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+}
+.rating-text b {
+    color: #ffffff;
+    font-size: 27px;
+}
+.mobile-view-design .warapper .main_box .one_o {
+    width: 50%;
+    padding: 10px 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mobile-view-design .warapper .main_box .one_o h6.heading_main {
+    font-size: 18px !important;
+    color: #000;
+    font-weight: 600;
+}
+.mobile-view-design .warapper .main_box .one_o p {
+    color: #0c0b0b;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.awesome {
+    width: 100%;
+}
+.mobile-view-design .awesome a {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #76453b;
+    padding: 6px 44px;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    margin-top: 14px;
+    width: 100%;
+}
+.mycelonw .main-rate-star i {
+    color: #f8b940;
+    font-size: 12px;
+}
+
+
+@media(max-width:575px){
+    .mobile-view-design.entertainment {
+    display: block;
+}
+.desktop-view{
+    display: none;
+}
+.desktop-view{
+    display: none;
+}
+}
+@media(max-width:375px){
+    .mobile-view-design .warapper .main_box .beting_logo {
+    padding: 10px 5px;
+}
+.mobile-view-design .awesome a {
+    font-size: 12px;
+    padding: 6px 20px;
+}
+}
+    </style>
 </head>
+
+
 
 <body>
     <!-- site-header start -->
@@ -50,10 +272,14 @@
 
         </div>
     </header>
+
+
     <!-- site header end -->
 
+
+<div class="desktop-view">
     <!-- site banner start -->
-    <div class="hotel-stays banner">
+    <div class="hotel-stays banner ">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -64,9 +290,20 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- site banner end -->
 
+    <div class="betting_design d-sm-none">
+        
 
+  
+
+
+
+
+    </div>
     <!-- site toptext start -->
     <div class="toptext ">
         <div class="container">
@@ -207,7 +444,8 @@
                                     cozy accommodations and easy access to Queenstown's bustling nightlife and outdoor
                                     activities. </p>
                                 <div class="primary-btn">
-                                    <a href="https://skycityqueenstown.co.nz/wharf-casino/" target="_blank">View More</a>
+                                    <a href="https://skycityqueenstown.co.nz/wharf-casino/" target="_blank">View
+                                        More</a>
                                 </div>
                             </div>
                         </div>
@@ -257,6 +495,355 @@
     </div>
     <!-- site Disclamier end -->
 
+</div>
+
+
+
+
+
+    <div class="mobile-view-design entertainment">
+        <section class="mobile-view">
+    
+          <div class="bgi-casino">
+            <div class="container">
+              <h2 class="beste">
+                Best betting sites New Zealand
+            </h2>
+    
+              <div class="encrypted">
+                <p><img src="images/Cielo.png " alt="" class="encrypted-img">100%
+                  Safe
+                </p>
+                <p><img src="images/Las-Vegas-flag.png" alt="" class="encrypted-img">New Zealand Players 
+                </p>
+                <p><img src="images/images-removebg-preview.png" alt="" class="encrypted-img">Quick Withdrawals
+                </p>
+              </div>
+            </div>
+    
+          </div>
+    
+          <div class="container cst">
+            <div class="bg-back">
+              <!-- <h2 class="text-center pt-4" style="color: #000; padding: 0 12px;">Beste casino's in Las Vegas
+
+              </h2> -->
+              <!-- betplays  -->
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://awbba.zetcasino.com/redirect.aspx?pid=1377389&bid=7385&redirectURL=" target="_blank"><img src="images/image1.svg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.9</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://awbba.zetcasino.com/redirect.aspx?pid=1377389&bid=7385&redirectURL=" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+                    </h6>
+                      <p>100% Up to $200</p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://awbba.zetcasino.com/redirect.aspx?pid=1377389&bid=7385&redirectURL=" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://go.aff.betplays.com/7ylp7pgu?campaign_id=18608" target="_blank"><img src="images/image2.svg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.9</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://go.aff.betplays.com/7ylp7pgu?campaign_id=18608" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+                    </h6>
+                      <p>Free Bet up to NZ$70</p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://go.aff.betplays.com/7ylp7pgu?campaign_id=18608" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://sgc.servclick1move.com/?mid=110225_1089817" target="_blank"><img src="images/image3.svg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.8</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://sgc.servclick1move.com/?mid=110225_1089817" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+                    </h6>
+                      <p>100% up to $200</p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://sgc.servclick1move.com/?mid=110225_1089817" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://media.affiliatestonybet.com/redirect.aspx?pid=170551&bid=1993&lpid=46
+                    " target="_blank"><img src="images/image_tony.svg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.8</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://media.affiliatestonybet.com/redirect.aspx?pid=170551&bid=1993&lpid=46
+                    " target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+ </h6>
+                      <p>$150 Sign up Bonus</p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://media.affiliatestonybet.com/redirect.aspx?pid=170551&bid=1993&lpid=46
+                      " target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://betway.com/bwp/newzealandsport/nz-nz?s=bw220131&a=AFF4230475784413947&utm_source=220131&utm_medium=Affiliate&utm_campaign=AFF4230475784413947" target="_blank"><img src="images/betway.jpg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.7</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://betway.com/bwp/newzealandsport/nz-nz?s=bw220131&a=AFF4230475784413947&utm_source=220131&utm_medium=Affiliate&utm_campaign=AFF4230475784413947" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+                    </h6>
+                      <p>Up to $60 in Free Bets + 20 Free Spins
+                    </p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://betway.com/bwp/newzealandsport/nz-nz?s=bw220131&a=AFF4230475784413947&utm_source=220131&utm_medium=Affiliate&utm_campaign=AFF4230475784413947" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://welcome.toptrendyinc.com/redirect.aspx?pid=93913&bid=1502&lpid=59" target="_blank"><img src="images/image5.png" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.7</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://welcome.toptrendyinc.com/redirect.aspx?pid=93913&bid=1502&lpid=59" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+                    </h6>
+                      <p>100% bonus up to 230 NZD
+                    </p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://welcome.toptrendyinc.com/redirect.aspx?pid=93913&bid=1502&lpid=59" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+
+              <div class="warapper">
+                <div class="main_box">
+                  <div class="beting_logo">
+    
+                    <a href="https://rbn.servclick1move.com/?mid=70545_1090361" target="_blank"><img src="images/image6.svg" alt="">
+                    </a>
+                    <div class="mycel">
+                      <div class="mycelonw">
+                        <div class="rate notpad">
+                          <p>Votes
+                            (725)</p>
+    
+                        </div>
+                       
+    
+                      </div>
+                      <div class="myceltwo">
+                        <div class="rate ">
+                          <p class="rating-text"><b>9.6</b>
+                          </p>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="one_o">
+                    <a href="https://rbn.servclick1move.com/?mid=70545_1090361" target="_blank">
+                      <h6 class="heading_main">
+                        Exclusive Bonus
+</h6>
+                      <p>$200 Welcome Bonus</p>
+                    </a>
+                    <div class="awesome">
+                      <a href="https://rbn.servclick1move.com/?mid=70545_1090361" target="_blank">
+Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+    
+    
+              </div>
+              <!-- betplays  -->
+            
+
+             
+                <div class="text_auality">
+                  <p>
+                    Based on the distinctive features of the platform, we present to you the Top sports betting sites available in New Zealand. Each of the copycat brands listed above offers numerous incentives, including competitive bonus offers, secure payment methods, interactive platforms, responsive support services, and more. In order to ensure that their personal expectations and the features of the betting site are in line, we advise all new players to thoroughly grasp what they hope to get out of their betting experience, including game selection and promotions and incentives. To guarantee a fun and enjoyable gaming experience, we advise you to take the time to read the terms and conditions of each betting site. This will help you make an educated selection.
+                  </p>
+                 
+                </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
     <!-- site footer start -->
     <div class="footer">
         <div class="container">
@@ -284,14 +871,14 @@
                         </div>
                         <div class="footer-adresse">
                             <div class="footer-mails">
-                              <div class="mails-names">
-                              <div class="primary-btn">
-                               <a href="mailto:info@wayfairnz.com">
-                                Contact</a>
-                              </div>
-                              </div>
+                                <div class="mails-names">
+                                    <div class="primary-btn">
+                                        <a href="mailto:info@wayfairnz.com">
+                                            Contact</a>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                         <div class="social-signals">
                             <i class="fa-brands fa-facebook-f"></i>
                             <i class="fa-brands fa-instagram"></i>
